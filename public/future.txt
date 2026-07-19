@@ -1,0 +1,44 @@
+  <!-- ===== Testimonials ===== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>What Our <span>Clients Say</span></h2>
+        <p>Real feedback from real customers</p>
+      </div>
+      <div class="grid-3">
+        <div class="testimonial-card reveal">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Excellent service from start to finish. The team installed 8 cameras in my showroom with clean cabling and full mobile access. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RK</div>
+            <div class="author-info">
+              <h4>Rajesh Kumar</h4>
+              <span>Business Owner</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Professional, punctual and reasonably priced. My home feels much safer now with the new 4K cameras. The mobile app works perfectly."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">PS</div>
+            <div class="author-info">
+              <h4>Priya Sharma</h4>
+              <span>Homeowner</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Best CCTV service in the city. They installed cameras across all 3 branches of our restaurant chain. Zero downtime, great support."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div class="author-info">
+              <h4>Ahmed Malik</h4>
+              <span>Restaurant Owner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
