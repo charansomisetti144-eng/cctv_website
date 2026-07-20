@@ -458,11 +458,27 @@ h3 { font-size: 1.35rem; }
   grid-template-columns: 1fr 1.3fr;
   gap: 40px;
 }
-.contact-info {
-  background: linear-gradient(160deg, var(--primary), var(--secondary));
-  color: #fff;
-  padding: 40px;
-  border-radius: var(--radius-lg);
+.contact-info{
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-lg);
+    padding: 40px;
+    color: #fff;
+}
+
+.contact-info::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(rgba(0,35,75,.65), rgba(0,35,75,.75)),
+        url('https://raw.githubusercontent.com/charansomisetti144-eng/cctv_website/refs/heads/main/public/images/logo.jpeg?w=1600&auto=format&fit=crop') center center / contain no-repeat;
+    z-index: 0;
+}
+
+.contact-info > *{
+    position: relative;
+    z-index: 1;
 }
 .contact-info h3 { color: #fff; margin-bottom: 20px; }
 .contact-info p { color: rgba(255,255,255,0.8); margin-bottom: 30px; font-size: 0.95rem; }
